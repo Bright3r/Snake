@@ -71,7 +71,7 @@ const gameOver = (context, gameLoopInterval) => {
 
     clearScreen(context, "rgb(0, 0, 0)")
     context.fillStyle = "rgb(255, 255, 255)"
-    context.fillText("Game Over", WIDTH / 2, HEIGHT / 2)
+    context.fillText("Game Over", WIDTH / 2 - 20, HEIGHT / 2)
 }
 
 class Snake {

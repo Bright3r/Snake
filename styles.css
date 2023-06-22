@@ -1,6 +1,16 @@
 
+:root {
+    font-family: sans-serif;
+}
+
 body {
     background-color: #111;
+    width: 100%;
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 canvas {
